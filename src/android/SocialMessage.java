@@ -22,7 +22,9 @@ import android.net.Uri;
 import android.os.Environment;
 
 import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
+import org.apache.cordova.CordovaWebView;
 
 @SuppressLint("DefaultLocale")
 public class SocialMessage extends CordovaPlugin {
