@@ -1,7 +1,7 @@
 
 var exec = require("cordova/exec");
 
-var SocialMessage = function () {
+function SocialMessage() {
     this.name = "SocialMessage";
 };
 
